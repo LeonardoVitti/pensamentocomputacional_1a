@@ -1,5 +1,5 @@
 # pensamentocomputacional_1a
-## Informações
+### Informações
 
 > Essa pasta é destinada ao estudo de Pensamento Computacional
 > 
