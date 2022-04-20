@@ -38,7 +38,83 @@ li {
 }
 
 .text-pizza {
+    margin-top:4rem* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: linear-gradient(to bottom right, #F3F4F8, #D2D4DA);
+}
+
+li {
+    list-style: none;
+}
+
+.div-nav {
+    background-color: #282a3a;
+    height: 4.8rem;
+    box-shadow: 4rem 0rem #000;
+}
+
+.nav-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list {
+    margin: 1.6rem;
+}
+
+.nav-itens {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #F3F4F8;
+}
+
+.sobre-div {
+    background-color: #404252;
+    padding: 3rem;
+}
+
+.text-pizza {
     margin-top:4rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.text-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #F3F4F8;
+}
+
+.text-main {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #F3F4F8;
+}
+
+.pizza-img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border: none;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
     margin-left: 4rem;
     display: flex;
     flex-direction: column;
