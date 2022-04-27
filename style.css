@@ -7,7 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 body {
-    background-color: linear-gradient(to bottom right, #F3F4F8, #D2D4DA);
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url("https://img.freepik.com/fotos-gratis/textura-de-papelao-amarelo_95678-83.jpg?w=1380&t=st=1651073712~exp=1651074312~hmac=faa96c0221f2c1cbdf0fd83435f7214362bc6e88719638f084c6d589f10bac09");
+    background-size: cover;
 }
 
 li {
@@ -15,7 +17,7 @@ li {
 }
 
 .div-nav {
-    background-color: #404252;
+    background-color: #7b0408;
     height: 4.8rem;
 }
 
@@ -27,68 +29,35 @@ li {
 }
 
 .nav-list {
-    margin: 1.6rem;
+    margin: 2.3rem;
 }
 
 .nav-itens {
+    position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     color: #F3F4F8;
+    transition: 400ms;
 }
 
-.text-pizza {
-    margin-top:4rem* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+.nav-itens:hover {
+    font-size: 1.3rem;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-
-body {
-    background-color: linear-gradient(to bottom right, #F3F4F8, #D2D4DA);
-}
-
-li {
-    list-style: none;
-}
-
-.div-nav {
-    background-color: #282a3a;
-    height: 4.8rem;
-    box-shadow: 4rem 0rem #000;
-}
-
-.nav-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.nav-list {
-    margin: 1.6rem;
-}
-
-.nav-itens {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    color: #F3F4F8;
+.container {
+    background-color: rgb(209, 142, 17);
+    height: 30px;
 }
 
 .sobre-div {
-    background-color: #404252;
-    padding: 3rem;
+   
 }
 
 .text-pizza {
     margin-top:4rem;
-    margin-left: 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    padding: 1.6rem;
+    text-decoration: none;
 }
 
 .text-subtitle {
@@ -105,42 +74,16 @@ li {
     color: #F3F4F8;
 }
 
-.pizza-img {
-    height: 10rem;
-    width: 10rem;
-    object-fit: cover;
-    border: none;
-    border-radius: 10px;
-    margin-left: 4rem;
-    margin-top: 4rem;
-}
-
-    margin-left: 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
 .text-subtitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
-    color: #101223;
-}
-
-.text-main {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    color: #101223;
+    color: #F3F4F8;
 }
 
 .pizza-img {
-    height: 10rem;
-    width: 10rem;
+    height: 400px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.1);
     object-fit: cover;
-    border: none;
-    border-radius: 10px;
-    margin-left: 4rem;
-    margin-top: 4rem;
 }
