@@ -64,21 +64,14 @@ li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.4rem;
-    color: #F3F4F8;
+    color: #6f0109;
 }
 
 .text-main {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 1rem;
-    color: #F3F4F8;
-}
-
-.text-subtitle {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1.4rem;
-    color: #F3F4F8;
+    color: #af2e37;
 }
 
 .pizza-img {
